@@ -6,16 +6,24 @@ import { MyApp } from './app.component';
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
+import { MymapsPage } from '../pages/mymaps/mymaps';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
+// import {GoogleMaps} from '@ionic-native/google-maps';
+import {GoogleMapComponent} from '../components/google-map/google-map';
 
 @NgModule({
   declarations: [
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage
+    ListPage,
+    MymapsPage,
+    GoogleMapComponent
+
   ],
   imports: [
     BrowserModule,
@@ -26,7 +34,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage
+    ListPage,
+    MymapsPage
   ],
   providers: [
     StatusBar,

@@ -1,25 +1,11 @@
-<ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Hello Ionic</ion-title>
-  </ion-navbar>
-</ion-header>
+<div class="container">
+    <div class="list" style="display: flex;">
+        <h2>Pay Via </h2>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="item" href="#" onclick="window.open('https://endeavourkiet.herokuapp.com/paywithpaytm?amount=10', '_self'); return false;">
+            <img src="../../assets/imgs/paytm.jpg" height="50">
+        </a>
 
-
-<ion-content padding>
-
-  <h3>Welcome to your first Ionic app!</h3>
-
-  <p>
-    This starter project is our way of helping you get a functional app running in record time.
-  </p>
-  <p>
-    Follow along on the tutorial section of the Ionic docs!
-  </p>
-  <p>
-    <button ion-button color="primary" menuToggle>Toggle Menu</button>
-  </p>
-
-</ion-content>
+        <div (click)="navi()">Go to maps</div>
+    </div>
+</div>
