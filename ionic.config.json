@@ -1,0 +1,7 @@
+{
+  "name": "parking_payment",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
