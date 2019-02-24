@@ -10,7 +10,7 @@ export class HelloIonicPage {
   }
 
   navi(){
-    this.navCtrl.setRoot(MymapsPage);
+    this.navCtrl.push(MymapsPage);
   }
  
 }
