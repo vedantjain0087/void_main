@@ -69,7 +69,8 @@
         "API_KEY_FOR_ANDROID": "AIzaSyDrpwHZIaiiwsmMNNfz2qVTAmdmAzbHMIc",
         "PLAY_SERVICES_VERSION": "15.0.1",
         "ANDROID_SUPPORT_V4_VERSION": "27.+"
-      }
+      },
+      "cordova-plugin-advanced-http": {}
     },
     "platforms": [
       "browser",
